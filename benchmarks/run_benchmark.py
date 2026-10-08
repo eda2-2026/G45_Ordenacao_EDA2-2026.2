@@ -12,7 +12,7 @@ e três distribuições de dados:
 
 import random
 import time
-from typing import Callable, Sequence
+from collections.abc import Callable, Sequence
 
 from lextrack_sorting import heap_sort, merge_sort, quick_sort, radix_sort
 

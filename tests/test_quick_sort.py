@@ -3,6 +3,7 @@ Testes unitários para o Quick Sort com pivô de mediana de três.
 """
 
 import unittest
+
 from lextrack_sorting import quick_sort
 
 

@@ -3,6 +3,7 @@ Testes unitários para o Radix Sort LSD.
 """
 
 import unittest
+
 from lextrack_sorting import radix_sort
 
 

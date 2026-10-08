@@ -7,7 +7,8 @@ Propriedade: Estável por definição de LSD.
 Ideal para ordenação não-comparativa de números inteiros (IDs, anos, contadores).
 """
 
-from typing import Any, Callable, Iterable, TypeVar
+from collections.abc import Callable, Iterable
+from typing import TypeVar
 
 T = TypeVar("T")
 

@@ -7,7 +7,8 @@ Para manter equivalência determinística com sorted() do LexTrack,
 elementos possuem empates resolvidos pelo índice original de inserção.
 """
 
-from typing import Any, Callable, Iterable, TypeVar
+from collections.abc import Callable, Iterable
+from typing import Any, TypeVar
 
 from lextrack_sorting._keys import make_key_func
 

@@ -5,7 +5,7 @@ Permite ordenar eventos de tramitação de proposições legislativas por difere
 e comparar o resultado visualmente no terminal.
 """
 
-from lextrack_sorting import heap_sort, merge_sort, quick_sort, radix_sort
+from lextrack_sorting import merge_sort, quick_sort, radix_sort
 
 # Amostra realista de eventos de tramitação de uma PEC legislativa no Congresso Nacional
 EVENTOS_EXEMPLO = [

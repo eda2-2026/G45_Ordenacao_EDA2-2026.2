@@ -3,6 +3,7 @@ Testes unitários para o Heap Sort.
 """
 
 import unittest
+
 from lextrack_sorting import heap_sort
 
 

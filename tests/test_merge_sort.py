@@ -3,6 +3,7 @@ Testes unitários para o algoritmo Merge Sort, compatíveis com unittest e pytes
 """
 
 import unittest
+
 from lextrack_sorting import merge_sort
 
 
